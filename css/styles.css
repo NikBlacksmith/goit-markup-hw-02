@@ -9,6 +9,7 @@
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
 }
 .list {
   list-style: none;
@@ -84,7 +85,6 @@ body {
 .pluses-text {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--main-text-color);
 }
 .team {
   background-color: #f5f4fa;
@@ -124,11 +124,11 @@ body {
 .case-name {
   font-size: 18px;
   line-height: 2;
+  color: var(--main-title-color);
 }
 .case-text {
   font-size: 14px;
   line-height: 1.88;
-  color: var(--main-text-color);
 }
 .pointer {
   cursor: pointer;
