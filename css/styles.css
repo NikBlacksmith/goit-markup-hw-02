@@ -10,6 +10,7 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -31,20 +32,29 @@ body {
   line-height: 1.2;
   font-weight: 700;
 }
+.logoweb {
+  color: var(--accent-color);
+}
 .nav-link {
-  font-size: 16px;
-  line-height: 1.14;
+  font-size: 14px;
+  line-height: 1.16;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .cont-mail {
-  font-size: 16px;
-  line-height: 2;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 .cont-tel {
-  font-size: 16px;
-  line-height: 2;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 .link:hover,
 .link:focus {
@@ -65,6 +75,7 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   color: var(--h1-color);
 }
 .hero-button {
@@ -73,6 +84,7 @@ body {
   line-height: 1.86;
   color: var(--h1-color);
   background-color: var(--accent-color);
+  letter-spacing: 0.06em;
 }
 
 .pluses-title {
@@ -105,7 +117,6 @@ body {
 }
 .contact-link {
   font-size: 16px;
-
   line-height: 1.86;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -120,7 +131,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
+  text-decoration: none;
 }
+
 .case-name {
   font-size: 18px;
   line-height: 2;
@@ -133,8 +146,7 @@ body {
 .pointer {
   cursor: pointer;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 1.86;
+  line-height: 1.63;
   color: var(--main-title-color);
   background-color: #f5f4fa;
 }
